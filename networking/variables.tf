@@ -3,18 +3,20 @@ variable "vpc_cidr" {
 }
 
 variable "public_cidr" {
- 
+
 }
 
-variable "private_cidr" { 
- 
+variable "private_cidr" {
+
 }
 
 variable "public_sn_count" {
   type = number
- }
+}
 
 variable "private_sn_count" {
   type = number
 
 }
+
+variable "db_subnet_group" {}
